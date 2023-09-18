@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: 	#ffd700; /* Change the background color to an attractive color */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 40%;
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    border: 7px solid #000000;
+    border-radius: 5px;
+    background-color: 		#1e90ff; /* Add a white background color for the content */
+}
+
+.account-number {
+    font-weight: bold;
+    margin-top: 10px;
+    color: black; /* Text color for the account number (blue in this example) */
+}
+
+.account-info, .transaction {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#error-message {
+    color: red;
+    font-weight: bold;
+}
